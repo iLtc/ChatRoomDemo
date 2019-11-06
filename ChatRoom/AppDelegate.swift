@@ -2,11 +2,14 @@
 //  AppDelegate.swift
 //  ChatRoom
 //
-//  Created by Alan Luo on 11/4/19.
+//  Created by Alan Luo on 11/2/19.
 //  Copyright © 2019 iLtc. All rights reserved.
 //
 
 import UIKit
+
+// Remember to import Firebase
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        // Use Firebase library to configure APIs
+        FirebaseApp.configure();
         return true
     }
 

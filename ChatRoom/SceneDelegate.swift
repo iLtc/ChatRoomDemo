@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  ChatRoom
 //
-//  Created by Alan Luo on 11/4/19.
+//  Created by Alan Luo on 11/2/19.
 //  Copyright © 2019 iLtc. All rights reserved.
 //
 
